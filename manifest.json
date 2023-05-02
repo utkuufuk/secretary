@@ -1,0 +1,23 @@
+{
+  "short_name": "Secretary",
+  "name": "Your Personal AI Secretary",
+  "icons": [
+    {
+      "src": "/icons/svg.svg",
+      "type": "image/svg+xml",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/icons/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "/",
+  "start_url": "/",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "description": "Automatically allocates time for your tasks"
+}
