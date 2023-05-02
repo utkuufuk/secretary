@@ -3,12 +3,12 @@
   "name": "Your Personal AI Secretary",
   "icons": [
     {
-      "src": "/icons/svg.svg",
+      "src": "icons/svg.svg",
       "type": "image/svg+xml",
       "sizes": "48x48"
     },
     {
-      "src": "/icons/512x512.png",
+      "src": "icons/512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
