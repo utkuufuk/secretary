@@ -1,12 +1,7 @@
-// This code executes in its own worker or thread
-self.addEventListener('install', event => {
-  console.log('Service worker installed')
-})
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js')
 
-self.addEventListener('activate', event => {
-  console.log('Service worker activated')
-})
-
-self.addEventListener('fetch', event => {
-  console.log(`URL requested: ${event.request.url}`)
-})
+workbox.recipes.pageCache()
+workbox.recipes.googleFontsCache()
+workbox.recipes.staticResourceCache()
+workbox.recipes.imageCache()
+workbox.recipes.offlineFallback()
